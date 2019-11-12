@@ -50,3 +50,4 @@ for j, rows in data.iterrows():
     pdf2.updatePageFormFieldValues(pdf2.getPage(0), field_dictionary)
     outputStream = open(outfile, "wb")
     pdf2.write(outputStream)
+    
